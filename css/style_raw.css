@@ -391,9 +391,8 @@ img {
 }
 
 .footer_redes ul li a {
-  border: 3px solid #fec63e;
   display: block;
-  padding: 10px;
+  padding: 5px;
   transition: all .5s ease;
 }
 
