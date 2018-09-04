@@ -8,18 +8,17 @@
 @import url("portfolio.css");
 @import url("contato.css");
 
-@import url("https://fonts.googleapis.com/css?family=Lato");
-@import url("https://fonts.googleapis.com/css?family=Satisfy");
+@import url("https://fonts.googleapis.com/css?family=Muli|Radley|Satisfy");
 
 
 body {
-  font-family: "Lato","Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Muli","Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 14px;
-  line-height: 20px;
+  font-family: "Radley", serif;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 img {
@@ -50,8 +49,8 @@ img {
   border: 3px solid #ecb7a7;
   padding: 10px 30px;
   color: #ecb7a7; /* light rose color */
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 24px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: .1em;
@@ -64,8 +63,8 @@ img {
 }
 
 .btn.btn_preto:hover {
-  color: #b15a60;
-  border-color: #b15a60;
+  color: #43322a;
+  border-color: #43322a; /* brown color */
 }
 
 .subtitulo {
@@ -140,11 +139,11 @@ img {
 }
 
 .header_menu ul li a:hover {
-  color: #ffffff;
+  color: #af585e;
 }
 
 .header_menu ul li a.menu_ativo {
-  color: #ffffff;
+  color: #af585e;
 }
 
 
@@ -163,18 +162,14 @@ img {
 .introducao h1 {
   font-size: 48px;
   color: #ffffff;
-  font-family: "Satisfy",sans-serif;
+  font-family: "Satisfy",cursive;
 }
 
 .quote_externo {
-  max-width: 320px;
+  max-width: 360px;
   margin: 0 auto;
   margin-bottom: 40px;
   color: #ffffff;
-}
-
-.quote_externo p {
-  font-style: italic;
 }
 
 .quote_externo p:before, .quote_externo p:after {
@@ -182,15 +177,16 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #ffffff;
+  background:  #ffffff;
   margin: 12px auto 10px auto;
 }
 
 .quote_externo cite {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: .1em;
+  text-transform: uppercase;
 }
 
 
@@ -274,7 +270,7 @@ img {
 /* Portfolio */
 .portfolio {
   width: 100%;
-  background: #af585e;
+  background: #af585e; /*dark rose color */
   padding: 40px 0;
 }
 
@@ -351,8 +347,17 @@ img {
 
 .break .quote_externo {
   max-width: 400px;
+  color: #43322a;
 }
 
+.break .quote_externo p:before, .break .quote_externo p:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background:  #43322a;
+  margin: 12px auto 10px auto;
+}
 
 
 /* Footer */
@@ -383,30 +388,32 @@ img {
 
 .footer_historia {
   padding-right: 40px;
-  font-family: Georgia, "Times New Roman", serif;
   color: #ecb7a7;
 }
 
+.footer_historia h3 {
+  font-family: "Muli","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .footer_contato ul li {
-  font-size: 14px;
-  line-height: 20px;
-  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Radley", serif;
   color: #ecb7a7;
 }
 
 .footer_redes ul li {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .footer_redes ul li a {
   display: block;
-  padding: 5px;
   transition: all .5s ease;
 }
 
 .footer_redes ul li a:hover {
-  border-color: #ffffff;
+  color: #ffffff;
 }
 
 .copyright {
