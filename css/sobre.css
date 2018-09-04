@@ -7,6 +7,14 @@
   padding-top: 60px;
 }
 
+.missao_sobre h2 {
+  color: #43322a;
+}
+
+.missao_sobre h2:after {
+  background: #43322a;
+}
+
 .missao_sobre p {
   font-size: 18px;
   line-height: 25px;
