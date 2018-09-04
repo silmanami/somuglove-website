@@ -44,9 +44,9 @@ img {
 }
 
 .btn {
-  border: 3px solid #fec63e;
+  border: 3px solid #ecb7a7;
   padding: 10px 30px;
-  color: #fec63e; /* amarela */
+  color: #ecb7a7; /* light rose color */
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
@@ -56,13 +56,13 @@ img {
 }
 
 .btn:hover {
-  color: #fff;
-  border-color: #fff;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 .btn.btn_preto:hover {
-  color: #000;
-  border-color: #000;
+  color: #b15a60;
+  border-color: #b15a60;
 }
 
 .subtitulo {
@@ -70,7 +70,7 @@ img {
   font-weight: bold;
   line-height: 30px;
   letter-spacing: .1em;
-  color: #000;
+  color: #43322a;
   text-transform: uppercase;
   text-align: center;
   padding-bottom: 40px;
@@ -81,7 +81,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #000;
+  background: #43322a;
   margin: 8px auto;
 }
 
@@ -90,7 +90,7 @@ img {
   font-weight: bold;
   line-height: 30px;
   letter-spacing: .1em;
-  color: #000;
+  color: #ffffff;
   text-transform: uppercase;
   padding-bottom: 10px;
 }
@@ -100,7 +100,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #000;
+  background: #ffffff;
   margin: 8px 0;
 }
 
@@ -111,7 +111,7 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #fec63e; /* amarela */
+  background: #ecb7a7;
   padding: 15px 0;
   z-index: 10;
 }
@@ -127,7 +127,7 @@ img {
 }
 
 .header_menu ul li a {
-  color: #000;
+  color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: .1em;
@@ -137,11 +137,11 @@ img {
 }
 
 .header_menu ul li a:hover {
-  color: #fff;
+  color: #ffffff;
 }
 
 .header_menu ul li a.menu_ativo {
-  color: #fff;
+  color: #ffffff;
 }
 
 
@@ -159,7 +159,7 @@ img {
 
 .introducao h1 {
   font-size: 48px;
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -168,7 +168,7 @@ img {
   max-width: 320px;
   margin: 0 auto;
   margin-bottom: 40px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .quote_externo p {
@@ -180,7 +180,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #fff;
+  background: #ffffff;
   margin: 12px auto 10px auto;
 }
 
@@ -198,7 +198,7 @@ img {
   margin-top: 92px;
   height: 160px;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   padding-top: 30px;
 }
 
@@ -213,7 +213,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #fff;
+  background: #ffffff;
   margin: 6px auto 10px auto;
 }
 
@@ -224,7 +224,7 @@ img {
 }
 
 .produtos_lista li {
-  background: #fec63e;
+  background: #ecb7a7;
   text-align: center;
 }
 
@@ -239,6 +239,7 @@ img {
   text-transform: uppercase;
   letter-spacing: .1em;
   margin-top: 20px;
+  color: #ffffff;
 }
 
 .produtos_lista li h3:after {
@@ -246,12 +247,13 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #000;
+  background: #ffffff;
   margin: 4px auto;
 }
 
 .produtos_lista li p {
   padding: 10px 20px 20px 20px;
+  color: #ffffff;
 }
 
 
@@ -270,16 +272,16 @@ img {
 /* Portfolio */
 .portfolio {
   width: 100%;
-  background: #000;
+  background: #af585e;
   padding: 40px 0;
 }
 
 .portfolio .subtitulo {
-  color: #fec63e;
+  color: #ffffff;
 }
 
 .portfolio .subtitulo:after {
-  background: #fec63e;
+  background: #ffffff;
 }
 
 .portfolio_lista div:last-of-type {
@@ -287,7 +289,7 @@ img {
 }
 
 .portfolio .call p {
-  color: #fff;
+  color: #ffffff;
 }
 
 
@@ -326,10 +328,13 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #000;
+  background: #43322a;
   margin: 6px auto;
 }
 
+.qualidade_lista li p {
+  color: #43322a;
+}
 
 
 /* Break */
@@ -351,15 +356,15 @@ img {
 /* Footer */
 .footer {
   width: 100%;
-  background: #000;
-  color: #fff;
+  background: #af585e;
+  color: #ffffff;
   padding: 50px 0;
 }
 
 .footer h3 {
   font-size: 18px;
   line-height: 25px;
-  color: #fec63e;
+  color: #ecb7a7;
   text-transform: uppercase;
   letter-spacing: .1em;
   font-weight: bold;
@@ -370,19 +375,21 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #fec63e;
+  background: #ecb7a7;
   margin: 6px 0 12px 0px;
 }
 
 .footer_historia {
   padding-right: 40px;
   font-family: Georgia, "Times New Roman", serif;
+  color: #ecb7a7;
 }
 
 .footer_contato ul li {
   font-size: 14px;
   line-height: 20px;
   font-family: Georgia, "Times New Roman", serif;
+  color: #ecb7a7;
 }
 
 .footer_redes ul li {
@@ -397,13 +404,13 @@ img {
 }
 
 .footer_redes ul li a:hover {
-  border-color: #fff;
+  border-color: #ffffff;
 }
 
 .copyright {
   width: 100%;
-  background: #fec63e;
-  color: #000;
+  background: #ecb7a7;
+  color: #ffffff;
   padding: 20px 0;
 }
 
