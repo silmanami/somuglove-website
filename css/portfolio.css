@@ -3,15 +3,22 @@
   background-size: cover;
 }
 
+.depoimentos {
+  background: #ffffff;
+  width: 100%;
+  height: 200px;
+}
+
 .quote_clientes {
   padding: 60px 0;
   max-width: 470px;
   margin: 0 auto;
+  color: #43322a;
 }
 
 .quote_clientes p {
   text-align: center;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Radley", serif;
   font-size: 18px;
   line-height: 25px;
   font-style: italic;
@@ -71,14 +78,14 @@
   display: inline-block;
   width: 12px;
   height: 12px;
-  background: #1d1d1d;
-  color: #1d1d1d;
+  background: #43322a;
+  color: #43322a;
   border-radius: 12px;
   overflow: hidden;
   text-indent: -200px;
 }
 
 .rslides_tabs li a:hover, .rslides_tabs li.rslides_here a {
-  background: #fec63e;
-  color: #fec63e;
+  background: #ecb7a7;
+  color: #ecb7a7;
 }
