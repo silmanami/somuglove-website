@@ -1,3 +1,5 @@
+/* Hamburger Menu*/
+
 $('.header_menu ul').origamidMenu({
 	breakpoint: 767,
 	top: 100,
@@ -5,7 +7,7 @@ $('.header_menu ul').origamidMenu({
 	color: "black"
 });
 
-
+/* Responsive Slides Animation*/
 
 $(".rslides").responsiveSlides({
   auto: true,             // Boolean: Animate automatically, true or false
@@ -20,6 +22,7 @@ $(".rslides_portfolio").responsiveSlides({
   pager: true,           // Boolean: Show pager, true or false
 });
 
+/* Visibility Animation*/
 
 Visibility.onVisible(function(){
   setTimeout(function() {
@@ -47,56 +50,58 @@ Visibility.onVisible(function(){
 });
 
 
-// Formulario
+/* Contact Form*/
 
 $('.formphp').on('submit', function() {
-	var emailContato = "contato@bikcraft.com"; // Escreva aqui o seu e-mail
+  var emailContato = "contato@bikcraft.com"; //Put your e-mail here
+  var that = $(this),
+      url = that.attr('action'),
+      type = that.attr('method'),
+      data = {};
 
-	var that = $(this),
-			url = that.attr('action'),
-			type = that.attr('method'),
-			data = {};
+  that.find('[name]').each(function(index, value) {
+    var that = $(this),
+        name = that.attr('name'),
+        value = that.val();
 
-	that.find('[name]').each(function(index, value) {
-		var that = $(this),
-				name = that.attr('name'),
-				value = that.val();
+    data[name] = value;
+  });
 
-		data[name] = value;
-	});
+  $.ajax({
+    url: url,
+    type: type,
+    data: data,
 
-	$.ajax({
-		url: url,
-		type: type,
-		data: data,
-		success: function(response) {
+    success: function(response) {
 
-			if( $('[name="leaveblank"]').val().length != 0 ) {
-				$('.formphp').html("<div id='form-erro'></div>");
-				$('#form-erro').html("<span>Falha no envio!</span><p>Você pode tentar novamente, ou enviar direto para o e-mail " + emailContato + " </p>")
-				.hide()
-				.fadeIn(1500, function() {
-				$('#form-erro');
-				});
-			} else {
+      if( $('[name="leaveblank"]').val().length != 0 ) {
+        $('.formphp').html("<div id='form-erro'></div>");
+        $('#form-erro').html("<span>Failed to send your message</span><p>Try again, or send e-mail to " + emailContato + " </p>")
+          .hide()
+          .fadeIn(1500, function() {
+          $('#form-erro');
+        });
 
-				$('.formphp').html("<div id='form-send'></div>");
-				$('#form-send').html("<span>Mensagem enviada!</span><p>Em breve eu entro em contato com você. Abraços.</p>")
-				.hide()
-				.fadeIn(1500, function() {
-				$('#form-send');
-				});
-			};
-		},
-		error: function(response) {
-			$('.formphp').html("<div id='form-erro'></div>");
-			$('#form-erro').html("<span>Falha no envio!</span><p>Você pode tentar novamente, ou enviar direto para o e-mail " + emailContato + " </p>")
-			.hide()
-			.fadeIn(1500, function() {
-			$('#form-erro');
-		});
-		}
-	});
+      } else {
+        $('.formphp').html("<div id='form-send'></div>");
+        $('#form-send').html("<span>Thank you for getting in touch!</span><p> We will get back to you soon.</p>")
+          .hide()
+          .fadeIn(1500, function() {
+          $('#form-send');
+        });
+      };
+    },
 
-	return false;
+    error: function(response) {
+
+      $('.formphp').html("<div id='form-erro'></div>");
+      $('#form-erro').html("<span>Failed to send your message</span><p>Try again, or send e-mail to " + emailContato + " </p>")
+        .hide()
+		.fadeIn(1500, function() {
+        $('#form-erro');
+      });
+    }
+  });
+
+  return false;
 });

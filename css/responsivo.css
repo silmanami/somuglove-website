@@ -1,7 +1,7 @@
-/* Estilo para tablet */
+/* For tablets */
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-/* Qualidade */
+/* Quality */
   .qualidade:after {
     right: 0px;
   }
@@ -22,7 +22,7 @@
     height: 26px;
   }
 
-/* Produtos */
+/* Products */
   .produto_item h2 {
     top: -150px;
     margin-bottom: -56px;
@@ -46,7 +46,7 @@
 
 
 
-/* Estilo para smartphone */
+/* For smartphones */
 
 @media only screen and (max-width: 767px) {
 /* Header */
@@ -82,7 +82,7 @@
     border-color: #fff;
   }
 
-/* Introdução */
+/* Introduction */
   .introducao {
     margin-top: 0px;
     padding-top: 40px;
@@ -94,23 +94,23 @@
     font-size: 36px;
   }
 
-/* Introdução Interna */
+/* Inside Introduction */
   .introducao_interna {
     margin-top: 0px;
 
   }
 
-/* Produtos */
+/* Products */
   .call {
     padding-top: 10px;
   }
 
-/* Qualidade */
+/* Quality */
   .qualidade:after {
     display: none;
   }
 
-/* Sobre */
+/* About Us */
   .missao_sobre p {
     font-size: 14px;
     line-height: 20px;
@@ -122,7 +122,7 @@
     line-height: 25px;
   }
 
-/* Produtos */
+/* Products */
   .produto_item h2 {
     top: -100px;
     margin-bottom: -68px;
@@ -151,7 +151,7 @@
     padding-right: 0px;
   }
 
-/* Contato */
+/* Contact */
   .contato_form {
     padding-right: 0px;
   }
