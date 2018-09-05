@@ -12,24 +12,18 @@
 
 /* Footer */
   .footer_redes ul li a {
-    border: 3px solid #fec63e;
-    display: block;
-    padding: 6px;
+    padding: 0;
   }
 
   .footer_redes ul li a img {
-    width: 26px;
-    height: 26px;
+    width: 30px;
+    height: 30px;
   }
 
 /* Products */
   .produto_item h2 {
     top: -150px;
     margin-bottom: -56px;
-  }
-
-  .produto_icone {
-    padding: 41px 0;
   }
 
   .produto_info p {
@@ -40,7 +34,7 @@
   }
 
   .produto_info ul li {
-    width: 181px;
+    display: none;
   }
 }
 
