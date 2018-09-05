@@ -469,6 +469,7 @@ img {
 }
 
 
+/* loading line */
 .pace {
   -webkit-pointer-events: none;
   pointer-events: none;
