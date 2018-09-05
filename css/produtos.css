@@ -15,7 +15,7 @@
   position: relative;
   top: -180px;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   margin-bottom: -56px;
 }
 
@@ -28,20 +28,16 @@
   margin: 6px auto 8px auto;
 }
 
-.produto_icone {
-  background: #000;
-}
-
 .produto_icone img {
   margin: 0 auto;
 }
 
 .produto_info {
-  background: #000;
+  background: #ecb7a7;
 }
 
 .produto_info p {
-  color: #fff;
+  color: #ffffff;
   font-size: 18px;
   line-height: 25px;
   height: 180px;
@@ -49,8 +45,7 @@
 }
 
 .produto_info ul li {
-  background: #fec63e;
-  text-transform: uppercase;
+  background: #af585e;
   font-size: 18px;
   line-height: 20px;
   font-weight: bold;
@@ -59,6 +54,7 @@
   height: 49px;
   text-align: center;
   padding-top: 16px;
+  color: #ffffff;
 }
 
 .produto_info ul li:nth-child(1), .produto_info ul li:nth-child(2) {
@@ -73,18 +69,18 @@
 
 /* Orçamento */
 .orcamento {
-  background: #000;
+  background: #af585e;
   width: 100%;
   margin-top: 60px;
-  padding: 40px 0;
+  padding: 60px;
 }
 
 .orcamento h2 {
-  color: #fec63e;
+  color: #ecb7a7;
 }
 
 .orcamento h2:after {
-  background: #fec63e;
+  background: #ecb7a7;
 }
 
 .form {
@@ -93,7 +89,7 @@
 
 .form label {
   display: block;
-  color: #fff;
+  color: #ecb7a7;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 18px;
   line-height: 25px;
@@ -103,9 +99,9 @@
 .form input {
   display: block;
   width: 100%;
-  border: 4px solid #fec63e;
+  border: 4px solid #ecb7a7;
   background: none;
-  color: #fff;
+  color: #ffffff;
   padding: 7px 10px;
   margin-bottom: 10px;
   outline: none;
@@ -117,7 +113,7 @@
   display: block;
   width: 100%;
   height: 120px;
-  border: 4px solid #fec63e;
+  border: 4px solid #ecb7a7;
   background: none;
   color: #fff;
   padding: 7px 10px;
@@ -139,8 +135,7 @@
 .orcamento_dados h3 {
   font-size: 18px;
   line-height: 25px;
-  text-transform: uppercase;
-  color: #fec63e;
+  color: #ecb7a7;
   font-weight: bold;
 }
 
@@ -170,5 +165,5 @@
 }
 
 .orcamento_dados ul li:nth-child(odd) {
-  background: #1d1d1d;
+  background: #ecb7a7;
 }
