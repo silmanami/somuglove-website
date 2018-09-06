@@ -2,7 +2,7 @@
 
 $('.header_menu ul').origamidMenu({
 	breakpoint: 767,
-	top: 100,
+	top: 50,
 	background: "#ecb7a7",
 	color: "#ffffff"
 });
