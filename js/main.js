@@ -3,8 +3,8 @@
 $('.header_menu ul').origamidMenu({
 	breakpoint: 767,
 	top: 100,
-	background: "#fec63e",
-	color: "black"
+	background: "#ecb7a7",
+	color: "#ffffff"
 });
 
 /* Responsive Slides Animation*/

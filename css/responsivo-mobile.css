@@ -1,55 +1,5 @@
-/* For tablets */
-
-@media only screen and (min-width: 768px) and (max-width: 959px) {
-/* Quality */
-  .qualidade:after {
-    right: 0px;
-  }
-
-  .qualidade_lista li {
-    padding: 0 10px;
-  }
-
-/* Footer */
-  .footer_redes ul li a {
-    border: 3px solid #fec63e;
-    display: block;
-    padding: 6px;
-  }
-
-  .footer_redes ul li a img {
-    width: 26px;
-    height: 26px;
-  }
-
-/* Products */
-  .produto_item h2 {
-    top: -150px;
-    margin-bottom: -56px;
-  }
-
-  .produto_icone {
-    padding: 41px 0;
-  }
-
-  .produto_info p {
-    font-size: 14px;
-    line-height: 20px;
-    height: 122px;
-    padding: 20px 30px;
-  }
-
-  .produto_info ul li {
-    width: 181px;
-  }
-}
-
-
-
-
 /* For smartphones */
 
-@media only screen and (max-width: 767px) {
 @media only screen and (max-width: 767px) {
 /* Header */
   .header {
@@ -93,7 +43,7 @@
   }
 
   .introducao h1 {
-    font-size: 36px;
+    font-size: 24px;
   }
 
 /* Inside Introduction */
@@ -112,7 +62,7 @@
     display: none;
   }
 
-/* About us */
+/* About Us */
   .missao_sobre p {
     font-size: 14px;
     line-height: 20px;
