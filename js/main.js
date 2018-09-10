@@ -53,7 +53,7 @@ Visibility.onVisible(function(){
 /* Contact Form*/
 
 $('.formphp').on('submit', function() {
-  var emailContato = "contato@bikcraft.com"; //Put your e-mail here
+  var emailContato = "contato@somuglove.com"; //Put your e-mail here
   var that = $(this),
       url = that.attr('action'),
       type = that.attr('method'),
